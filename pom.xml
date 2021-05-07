@@ -7,6 +7,19 @@
     <groupId>github-example</groupId>
     <artifactId>github-example</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
 
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub malmichaelis Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/malmichaelis/github-example</url>
+        </repository>
+    </distributionManagement>
+
+    <properties>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+    </properties>
 
 </project>
