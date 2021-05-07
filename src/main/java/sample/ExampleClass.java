@@ -6,4 +6,9 @@ public class ExampleClass {
         System.out.println(param
         );
     }
+
+    public static void printMe2(String param) {
+        System.out.println(param
+        );
+    }
 }
